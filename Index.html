@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope for All - NGO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#events">Events</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="hero">
+        <h1>Hope for All</h1>
+        <p>Empowering communities, changing lives.</p>
+        <a href="donate.html">
+            <button id="donate-btn">Donate Now</button>
+        </a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Our mission is to create a better world through charity and community support.</p>
+    </section>
+
+    <section id="programs">
+        <h2>Our Programs</h2>
+        <p>Education, healthcare, and community development initiatives.</p>
+    </section>
+
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <p>Join our upcoming charity drives and community support programs.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="assets/1.jpg" alt="Event 1">
+            <img src="assets/2.jpg" alt="Event 2">
+            <img src="assets/3.jpg" alt="Event 3">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get Involved</h2>
+        <p>Join us in making a difference. Sign up to volunteer or donate today!</p>
+        <a href="https://forms.gle/5RNz7xCDfh3PxJvv9" target="_blank">
+            <button>Contact Us</button>
+        </a>
+    </section>
+
+    <div id="donate-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Support Our Cause</h2>
+            <p>Every donation helps us bring hope to more people.</p>
+            <button id="donate-btn" onclick="window.location.href='donate.html'">Donate Now</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Follow us on: <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a></p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
